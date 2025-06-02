@@ -25,11 +25,16 @@ To distinguish different change agents, data from the European Foreest Disturban
 * Remote sensing shows strong potential for early detection, forest inventory updates, and post-disturbance monitoring
 
 ## Polygon-based Analysis
-* Coimputation of hexagonal maps of descriptive statistics of the single RS products
+* Computation of hexagonal maps of descriptive statistics of the single RS products
 * Bivariate correlations between the RS product attributes
 
 ## Pixel-based Analysis
 * Analysis of a timeseries of descriptive statistics of the forest structure attributes and FCSD for distinct disturbance patterns at 10 m resolution
 * Definition and mapping of seven disturbance patterns based on RS-derived classification of forest condition
 * Two regions with available ground-truth disturbance data and known management histories used to define and validate disturbance patterns and test robustness of RS-derived classifications at finer spatial scales
+
+### Disturbance Pattern Classification
+Forest disturbances are classified into seven distinct patterns based on the intensity, scale and primary change agent observed in the RS products. 
+![distpatterns](https://github.com/user-attachments/assets/7c7a97aa-8498-4946-8e27-df9accaa9e51)
+
 
