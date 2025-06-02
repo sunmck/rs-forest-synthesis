@@ -10,26 +10,26 @@ Subsequent regional analyses allow for investigations into forest structure dyna
 
 ## Data
 The RS products used in this analysis comprise three key products, provided by the German Aerospace Centre (DLR):
-*Forest Structure (Kacic et al. 2023), 
-*Forest Canopy Cover Loss (FCCL) (Thonfeld et al. 2022) and 
-*Fractional Cover of Standing Deadwood (FCSD) (Schiefer et al. 2024). 
+* Forest Structure (Kacic et al. 2023), 
+* Forest Canopy Cover Loss (FCCL) (Thonfeld et al. 2022) and 
+* Fractional Cover of Standing Deadwood (FCSD) (Schiefer et al. 2024). 
 
 These products cover the entire study area of Germany, offering high temporal (monthly or yearly) and spatial (10 m) resolution for the period between 2017 and 2023. The forest structure attributes analysed are: Total Canopy Cover (TCC), Canopy Height (CH), Above-ground Biomass Density (AGBD), Foliage-height Diversity Index (FHDI) and FCSD.
 
 To distinguish different change agents, data from the European Foreest Disturbance Atlas (Viana-Soto and Senf 2025) is used.
 
 ## Key Findings
-*Stand-replacing disturbances (e.g., windthrow, severe bark beetle outbreaks) cause the most significant structural losses
-*Structural declines often precede visible disturbances—especially in aboveground biomass
-*Post-disturbance recovery varies; canopy cover recovers fastest
-*Remote sensing shows strong potential for early detection, forest inventory updates, and post-disturbance monitoring
+* Stand-replacing disturbances (e.g., windthrow, severe bark beetle outbreaks) cause the most significant structural losses
+* Structural declines often precede visible disturbances—especially in aboveground biomass
+* Post-disturbance recovery varies; canopy cover recovers fastest
+* Remote sensing shows strong potential for early detection, forest inventory updates, and post-disturbance monitoring
 
 ## Polygon-based Analysis
-*Coimputation of hexagonal maps of descriptive statistics of the single RS products
-*Bivariate correlations between the RS product attributes
+* Coimputation of hexagonal maps of descriptive statistics of the single RS products
+* Bivariate correlations between the RS product attributes
 
 ## Pixel-based Analysis
-*Analysis of a timeseries of descriptive statistics of the forest structure attributes and FCSD for distinct disturbance patterns at 10 m resolution
-*Definition and mapping of seven disturbance patterns based on RS-derived classification of forest condition
-*Two regions with available ground-truth disturbance data and known management histories used to define and validate disturbance patterns and test robustness of RS-derived classifications at finer spatial scales
+* Analysis of a timeseries of descriptive statistics of the forest structure attributes and FCSD for distinct disturbance patterns at 10 m resolution
+* Definition and mapping of seven disturbance patterns based on RS-derived classification of forest condition
+* Two regions with available ground-truth disturbance data and known management histories used to define and validate disturbance patterns and test robustness of RS-derived classifications at finer spatial scales
 
