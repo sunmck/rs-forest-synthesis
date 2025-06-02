@@ -36,7 +36,8 @@ To distinguish different change agents, data from the European Foreest Disturban
 ### Disturbance Pattern Classification
 Forest disturbances are classified into seven distinct patterns based on the intensity, scale and primary change agent observed in the RS products. 
 
-![distpatterns_2](https://github.com/user-attachments/assets/c92b335c-2c50-4428-bbaa-89edeed672fa)
+![distpatterns](https://github.com/user-attachments/assets/f3a18c51-ecc7-4398-b28d-1b184526c210)
+
 
 
 
