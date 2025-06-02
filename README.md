@@ -16,7 +16,7 @@ The RS products used in this analysis comprise three key products, provided by t
 
 These products cover the entire study area of Germany, offering high temporal (monthly or yearly) and spatial (10 m) resolution for the period between 2017 and 2023. The forest structure attributes analysed are: Total Canopy Cover (TCC), Canopy Height (CH), Above-ground Biomass Density (AGBD), Foliage-height Diversity Index (FHDI) and FCSD.
 
-To distinguish different change agents, data from the European Foreest Disturbance Atlas (Viana-Soto and Senf 2025) is used.
+To distinguish different change agents, data from the European Foreest Disturbance Atlas (Viana-Soto and Senf 2025) is used. For the regional analyses, data from the Copernicus Emergency Management Service (EMS) and the Bavarian Forest National Park are used.
 
 ## Key Findings
 * Stand-replacing disturbances (e.g., windthrow, severe bark beetle outbreaks) cause the most significant structural losses
