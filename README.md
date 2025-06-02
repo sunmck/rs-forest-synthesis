@@ -41,7 +41,7 @@ Forest disturbances are classified into seven distinct patterns based on the int
 ### Disturbance Phase Classification
 For all pixels that fall into one of the disturbance patterns in a specific year, a timeseries of descriptive statistics of the forest structure attributes and FCSD is calculated. This approach enables the analysis of forest structure dynamics across the entire available time series of disturbed pixels. Specific phases of a disturbance are analysed, including:
 
-![methods_prepostdist](https://github.com/user-attachments/assets/3fa12329-4297-4e38-94df-ef25ad7cb223)
+![methods_prepostdist](https://github.com/user-attachments/assets/3fa12329-4297-4e38-94df-ef25ad7cb223=100x)
 
 
 
