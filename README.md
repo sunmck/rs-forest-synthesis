@@ -66,7 +66,7 @@ Run `pip install -r requirements.txt` to install the dependencies.
 └── requirements.txt # Python requirements
 ```
 
-> **Note:** The `data/` folder is included for structure, but raw and processed datasets are not uploaded due to size and licensing restrictions. Please contact the data providers or the author for access.
+> **Note:** The `data/` folder is included for structure, but raw and processed datasets are not uploaded due to size and licensing restrictions. Please contact the data providers or me for access.
 > 
 
 ## Key Findings
@@ -98,7 +98,7 @@ For all pixels that fall into one of the disturbance patterns in a specific year
 
 This repository is licensed under the MIT License.
 
-*Note:* Remote sensing products used in this analysis may have their own license restrictions—please refer to the data providers (DLR, Copernicus EMS, etc.) for usage guidelines.
+*Note:* Remote sensing products used in this analysis may have their own license restrictions—please refer to the data providers for usage guidelines.
 
 ## References
 
