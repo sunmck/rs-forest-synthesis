@@ -23,37 +23,47 @@ To distinguish different change agents, data from the European Foreest Disturban
 To run the code in this repository, the following Python (and R) libraries are required:
 
 ### Python
-- numpy
-- pandas
+- rioxarray
 - xarray
 - rasterio
-- matplotlib
-- seaborn
-- scikit-learn
 - geopandas
+- pandas
+- matplotlib
+- numpy
+- dask
+- scipy
+- shapely
+- seaborn
+- lexcube
+- ipywidgets
+- pyvista
+- jupyterlab
+
+To install the required Python packages, run:
+
+Run `pip install -r requirements.txt` to install the dependencies.
 
 ### R
+- gdalUtilities
 - terra
 - sf
+- dplyr
 - tidyverse
-- stars
-- exactextractr
-
-Use `requirements.txt` or a conda environment if available.
 
 ## Repository Structure
 
 ```
 ├── data/ # Placeholder for raw/processed data (not uploaded)
-├── figures/ # Figures used in thesis or README
 ├── results/ # Output tables, plots, etc.
 ├── scripts/
 │ ├── polygon_based/
-│ │ ├── poly_calculatestats_hexagons.R
+│ │ ├── reproject.R
+│ │ └── poly_calculatestats_hexagons.R
 │ │ └── poly_calculatestats_otherpolygons.R
 │ └── pixel_based/
 │ └── pixel_datacube_mainanalysis.py
 └── README.md
+└── requirements.txt # Python requirements
 ```
 
 > **Note:** The `data/` folder is included for structure, but raw and processed datasets are not uploaded due to size and licensing restrictions. Please contact the data providers or the author for access.
