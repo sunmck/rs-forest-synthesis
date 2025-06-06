@@ -18,6 +18,47 @@ These products cover the entire study area of Germany, offering high temporal (m
 
 To distinguish different change agents, data from the European Foreest Disturbance Atlas (Viana-Soto and Senf 2025) is used. For the regional analyses, data from the Copernicus Emergency Management Service (EMS) and the Bavarian Forest National Park are used.
 
+## Installation / Requirements
+
+To run the code in this repository, the following Python (and R) libraries are required:
+
+### Python
+- numpy
+- pandas
+- xarray
+- rasterio
+- matplotlib
+- seaborn
+- scikit-learn
+- geopandas
+
+### R
+- terra
+- sf
+- tidyverse
+- stars
+- exactextractr
+
+Use `requirements.txt` or a conda environment if available.
+
+## Repository Structure
+
+```
+├── data/ # Placeholder for raw/processed data (not uploaded)
+├── figures/ # Figures used in thesis or README
+├── results/ # Output tables, plots, etc.
+├── scripts/
+│ ├── polygon_based/
+│ │ ├── poly_calculatestats_hexagons.R
+│ │ └── poly_calculatestats_otherpolygons.R
+│ └── pixel_based/
+│ └── pixel_datacube_mainanalysis.py
+└── README.md
+```
+
+> **Note:** The `data/` folder is included for structure, but raw and processed datasets are not uploaded due to size and licensing restrictions. Please contact the data providers or the author for access.
+> 
+
 ## Key Findings
 * Stand-replacing disturbances (e.g., windthrow, severe bark beetle outbreaks) cause the most significant structural losses
 * Structural declines often precede visible disturbances—especially in aboveground biomass
@@ -43,5 +84,20 @@ For all pixels that fall into one of the disturbance patterns in a specific year
 
 <img src="https://github.com/user-attachments/assets/3fa12329-4297-4e38-94df-ef25ad7cb223" alt="methods_prepostdist" width="400"/>
 
+## License
 
+This repository is licensed under the MIT License.
+
+*Note:* Remote sensing products used in this analysis may have their own license restrictions—please refer to the data providers (DLR, Copernicus EMS, etc.) for usage guidelines.
+
+## References
+
+- Kacic, P.; Thonfeld, F.;  Gessner, U.; Kuenzer, C. Forest  Structure Characterization in  Germany: Novel Products and  Analysis Based on GEDI, Sentinel-1  and Sentinel-2 Data. Remote Sens.  2023, 15, 1969. https://doi.org/  10.3390/rs15081969S. 
+- Thonfeld, F.; Zhu, Z.; Gessner, U.; Dech, S.; et al. A First Assessment of Canopy Cover Loss in Germany’s Forests after the 2018–2020 Drought Years. Remote Sens. 2022, 14(3), 562. https://doi.org/10.3390/rs14030562.
+- Schiefer, F.; Schmidtlein, S.; Frick, A.; Frey, J.; Klinke, R.; Zielewska-Büttner, K.; Junttila, S.; Uhl, A.; Kattenborn, T. UAV-Based Reference Data for the Prediction of Fractional Cover of Standing Deadwood from Sentinel Time Series. Karlsruhe Institute of Technology (KIT), University of Freiburg, FVA Baden-Württemberg, University of Eastern Finland, Leipzig University, iDiv.
+- Viana-Soto, A.; Senf, C. European Forest Disturbance Atlas. Version 2.1.1. Aug. 20, 2024. DOI: 10.5281/zenodo.13333034. Available: https://zenodo.org/records/13333034.
+
+## Acknowledgements
+
+Thank you for the supporting and insightful supervision and all resources provided by the Chair of Remote Sensing of the University of Würzburg and the DLR to make this thesis possible!
 
