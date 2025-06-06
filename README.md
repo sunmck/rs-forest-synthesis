@@ -25,10 +25,10 @@ To distinguish different change agents, data from the European Foreest Disturban
 * Remote sensing shows strong potential for early detection, forest inventory updates, and post-disturbance monitoring
 
 ## Polygon-based Analysis
-* Computation of hexagonal maps of descriptive statistics of the single RS products
-* Bivariate correlations between the RS product attributes
+* Aggregation of pixel-wise information to polygons (hexagons or other polygons such as forest growth regions) by means of calculating descriptive statistics of the single RS products (`poly_calculatestats_hexagons.R` and `poly_calculatestats_otherpolygons.R`)
+* Computation of time series and bivariate correlations between the RS product attributes (`TODO`)
 
-## Pixel-based Analysis
+## Pixel-based Analysis (`pixel_datacube_mainanalysis.py`)
 * Analysis of a timeseries of descriptive statistics of the forest structure attributes and FCSD for distinct disturbance patterns at 10 m resolution
 * Definition and mapping of seven disturbance patterns based on RS-derived classification of forest condition
 * Two regions with available ground-truth disturbance data and known management histories used to define and validate disturbance patterns and test robustness of RS-derived classifications at finer spatial scales
