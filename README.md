@@ -56,11 +56,9 @@ Run `pip install -r requirements.txt` to install the dependencies.
 ├── data/ # Placeholder for raw/processed data (not uploaded)
 ├── results/ # Output tables, plots, etc.
 ├── scripts/
-│ ├── polygon_based/
-│ │ ├── reproject.R
-│ │ └── poly_calculatestats_hexagons.R
-│ │ └── poly_calculatestats_otherpolygons.R
-│ └── pixel_based/
+│ ├── reproject.R
+│ └── poly_calculatestats_hexagons.R
+│ └── poly_calculatestats_otherpolygons.R
 │ └── pixel_datacube_mainanalysis.py
 └── README.md
 └── requirements.txt # Python requirements
