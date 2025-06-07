@@ -75,7 +75,7 @@ Run `pip install -r requirements.txt` to install the dependencies.
 
 ## Polygon-based Analysis
 * Aggregation of pixel-wise information to polygons (hexagons or other polygons such as forest growth regions) by means of calculating descriptive statistics of the single RS products (`poly_calculatestats_hexagons.R` and `poly_calculatestats_otherpolygons.R`)
-* Computation of time series and bivariate correlations between the RS product attributes (`TODO`)
+* Computation of time series and bivariate correlations between the RS product attributes (`poly_timeseries_singleRSproducts.py` and `poly_correlations.py`)
 
 ## Pixel-based Analysis (`pixel_datacube_mainanalysis.py`)
 * Analysis of a timeseries of descriptive statistics of the forest structure attributes and FCSD for distinct disturbance patterns at 10 m resolution
