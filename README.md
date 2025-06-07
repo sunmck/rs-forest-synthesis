@@ -107,5 +107,5 @@ This repository is licensed under the MIT License.
 
 ## Acknowledgements
 
-Thank you for the supporting and insightful supervision and all resources provided by the Chair of Remote Sensing of the University of Würzburg and the DLR to make this thesis possible!
+Thank you for the supporting and insightful supervision and all resources provided by the Chair of Remote Sensing of the University of Würzburg and the DLR to make this thesis possible!🌳
 
